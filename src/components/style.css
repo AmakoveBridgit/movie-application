@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4%;
+    
+    
+}
+.image_container{
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}

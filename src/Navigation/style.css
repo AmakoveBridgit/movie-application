@@ -1,0 +1,101 @@
+
+  body,
+html,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.Navigation {
+  background-color: #925656;
+  color: #edd4d4;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie {
+  font-size: 32px;
+}
+
+.movie span {
+  color: #f0ad4e;
+}
+
+.search_button {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  margin-left: 10px;
+  background-color: #f0ad4e;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #d89e3c;
+}
+
+.yellow-link a {
+  color: #f0ad4e;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.yellow-link a:hover {
+  color: #d89e3c;
+}
+
+.list {
+  margin: 0 20px;
+}
+
+.sign-in-button {
+  background-color: #dca75d;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.sign-in-button:hover {
+  background-color: #dab169;
+}
+
+.search-result{
+    width: 20%;
+ 
+    padding: 20px;
+   
+
+}
+.search-results{
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+
+
